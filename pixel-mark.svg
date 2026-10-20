@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Marchio provvisorio Pixel Ostia">
+  <rect width="64" height="64" rx="14" fill="#8B5CF6"/>
+  <path fill="#09090D" d="M17 14h21.5C47.1 14 52 19 52 27.2S47.1 40.5 38.5 40.5H27.2V50H17V14Zm10.2 8.4v9.7h10.1c2.7 0 4.3-1.7 4.3-4.8s-1.6-4.9-4.3-4.9H27.2Z"/>
+  <circle cx="47" cy="47" r="5" fill="#F5F3FF"/>
+</svg>

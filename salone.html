@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Studio Nove è una demo Pixel Ostia: un esempio editoriale e contemporaneo di sito per un salone.">
+  <meta name="theme-color" content="#171616">
+  <meta property="og:title" content="Studio Nove — Demo Pixel Ostia">
+  <meta property="og:description" content="Una demo editoriale per un salone contemporaneo.">
+  <meta property="og:type" content="website">
+  <title>Studio Nove — Demo salone | Pixel Ostia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logo/pixel-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="site-body demo-page salon-page">
+  <a class="skip-link" href="#contenuto">Vai al contenuto principale</a>
+  <div class="page-wipe" aria-hidden="true"></div>
+
+  <header class="site-header demo-header" data-header>
+    <a class="salon-brand" href="salone.html" aria-label="Studio Nove, home">STUDIO NOVE</a>
+    <div class="header-actions">
+      <button class="motion-toggle" type="button" data-motion-toggle aria-pressed="false" aria-label="Disattiva le animazioni"><span class="motion-toggle__icon" aria-hidden="true">✦</span><span class="motion-toggle__label">Movimento</span></button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu" data-menu-toggle><span class="sr-only">Apri il menu</span><span></span><span></span></button>
+    </div>
+    <nav class="site-nav" id="main-menu" aria-label="Navigazione Studio Nove" data-menu>
+      <a href="#salone">Il salone</a><a href="#servizi">Servizi</a><a href="#listino">Listino</a><a href="index.html" class="nav-contact">← Pixel Ostia</a>
+    </nav>
+  </header>
+
+  <main id="contenuto">
+    <section class="salon-hero" aria-labelledby="salon-title"><div class="salon-hero__copy"><p class="eyebrow" data-reveal>Demo concept · salone contemporaneo</p><h1 id="salon-title" data-reveal>Un taglio.<br><em>Una presenza.</em></h1><p data-reveal>Un'esperienza immaginata con calma, attenzione e gusto per i dettagli che parlano piano.</p><a class="button button--ghost" href="#servizi" data-reveal>Esplora lo studio <span aria-hidden="true">↓</span></a></div><div class="salon-hero__portrait" aria-hidden="true"><span>STUDIO</span><strong>09</strong><small>ESSENTIAL<br>BY DESIGN</small></div></section>
+
+    <section class="salon-intro section-shell" id="salone" aria-labelledby="salon-intro-title"><p class="demo-note" data-reveal>Studio Nove · demo</p><div class="salon-intro__text"><h2 id="salon-intro-title" data-reveal>Il tuo stile,<br>con un po' più<br>di <em>spazio.</em></h2><p data-reveal>Studio Nove è un salone fittizio usato per mostrare un tono editoriale: immagine, servizi e invito al contatto costruiti per lasciare respirare il brand.</p><p data-reveal>Le persone, i lavori, i prezzi e le disponibilità di un salone reale vanno sempre autorizzati e aggiornati dal titolare.</p></div></section>
+
+    <section class="salon-services" id="servizi" aria-labelledby="salon-services-title"><div class="section-shell"><div class="salon-services__heading"><div><p class="demo-note" data-reveal>Il gesto, in tre atti</p><h2 id="salon-services-title" data-reveal>Un servizio che<br>inizia <em>ascoltando.</em></h2></div><p data-reveal>Queste categorie sono dimostrative: una versione reale può avere nomi, descrizioni e listini su misura.</p></div><div class="salon-services-grid" data-reveal><article class="salon-service"><span>01 / TAGLIO</span><h3>Forma</h3><p>Una sezione per presentare consulenza e taglio con parole adatte al carattere dello studio.</p></article><article class="salon-service"><span>02 / COLORE</span><h3>Luce</h3><p>Un posto per raccontare colore e tecnica, senza promesse che non siano verificabili.</p></article><article class="salon-service"><span>03 / CURA</span><h3>Rituale</h3><p>Trattamenti e cura quotidiana descritti in modo essenziale e comprensibile.</p></article></div></div></section>
+
+    <section class="salon-price-section section-shell" id="listino" aria-labelledby="price-title"><div><p class="demo-note" data-reveal>Listino dimostrativo</p><h2 id="price-title" data-reveal>Prezzi<br>in <em>chiaro.</em></h2><p class="salon-price-note" data-reveal>Questi importi sono solo un esempio visivo e non sono un'offerta commerciale. Sostituirli integralmente prima della pubblicazione.</p></div><div class="salon-price-list" data-reveal><div class="salon-price-item"><span>Taglio e piega</span><small>DA 00 €</small></div><div class="salon-price-item"><span>Colore</span><small>DA 00 €</small></div><div class="salon-price-item"><span>Trattamento</span><small>DA 00 €</small></div><div class="salon-price-item"><span>Consulenza</span><small>SU RICHIESTA</small></div></div></section>
+
+    <section class="salon-gallery" aria-labelledby="gallery-title"><div class="section-shell"><div class="salon-gallery-heading"><div><p class="demo-note" data-reveal>La direzione visiva</p><h2 id="gallery-title" data-reveal>Materia,<br>linea, <em>luce.</em></h2></div><p data-reveal>Un layout editoriale può comunicare carattere anche senza immagini finché non hai fotografie originali pronte per il sito.</p></div><div class="salon-gallery-grid" data-reveal><article class="salon-gallery-card salon-gallery-card--large"><span>01</span><strong>QUIET<br>FORM</strong><p>Spazio, ritmo e dettagli.</p></article><div class="salon-gallery-stack"><article class="salon-gallery-card salon-gallery-card--soft"><span>02</span><strong>LIGHT</strong></article><article class="salon-gallery-card salon-gallery-card--line"><span>03</span><strong>LINE /<br>TEXTURE</strong></article></div></div></div></section>
+
+    <section class="salon-cta" aria-labelledby="salon-cta-title"><div class="section-shell"><p class="demo-note" data-reveal>Prenotazioni demo</p><h2 id="salon-cta-title" data-reveal>Parliamo del tuo<br><em>prossimo look.</em></h2><p data-reveal>Il pulsante apre l'app email predefinita. In un progetto reale sostituisci il destinatario con un contatto verificato.</p><a class="button" href="mailto:INSERISCI_QUI_EMAIL_OUTLOOK@outlook.com?subject=Richiesta%20appuntamento%20Studio%20Nove" data-reveal>Scrivi allo studio <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+
+  <footer class="demo-footer"><div class="section-shell demo-footer__full"><div><h2>PIXEL OSTIA</h2><p>Studio Nove è un concept dimostrativo per mostrare una direzione possibile.</p><p>Social: da inserire</p></div><nav aria-label="Link footer"><a href="index.html">Portfolio Pixel Ostia</a><a href="index.html#prezzi">Prezzi</a><a href="index.html#contatti">Contatti</a></nav><a href="mailto:INSERISCI_QUI_EMAIL_OUTLOOK@outlook.com">INSERISCI_QUI_EMAIL_OUTLOOK</a></div><div class="section-shell demo-footer__inner"><p>© <span data-current-year></span> Pixel Ostia. Tutti i diritti riservati.</p><a href="index.html">Torna al portfolio</a></div></footer>
+</body>
+</html>

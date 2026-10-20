@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Forno del Borgo è una demo Pixel Ostia: un esempio caldo e artigianale di sito per un forno italiano.">
+  <meta name="theme-color" content="#F9F0DF">
+  <meta property="og:title" content="Forno del Borgo — Demo Pixel Ostia">
+  <meta property="og:description" content="Una demo calda e artigianale per un forno di quartiere.">
+  <meta property="og:type" content="website">
+  <title>Forno del Borgo — Demo forno | Pixel Ostia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logo/pixel-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="site-body demo-page bakery-page">
+  <a class="skip-link" href="#contenuto">Vai al contenuto principale</a>
+  <div class="page-wipe" aria-hidden="true"></div>
+
+  <header class="site-header demo-header" data-header>
+    <a class="bakery-brand" href="forno.html" aria-label="Forno del Borgo, home">FORNO DEL BORGO</a>
+    <div class="header-actions">
+      <button class="motion-toggle" type="button" data-motion-toggle aria-pressed="false" aria-label="Disattiva le animazioni"><span class="motion-toggle__icon" aria-hidden="true">✦</span><span class="motion-toggle__label">Movimento</span></button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu" data-menu-toggle><span class="sr-only">Apri il menu</span><span></span><span></span></button>
+    </div>
+    <nav class="site-nav" id="main-menu" aria-label="Navigazione Forno del Borgo" data-menu>
+      <a href="#storia">Storia</a><a href="#prodotti">Prodotti</a><a href="#visita">Orari</a><a href="index.html" class="nav-contact">← Pixel Ostia</a>
+    </nav>
+  </header>
+
+  <main id="contenuto">
+    <section class="bakery-hero" aria-labelledby="bakery-title"><div class="bakery-hero__seal" aria-hidden="true"><span>DAL</span><strong>FORNO</strong><span>OGNI GIORNO</span></div><div class="bakery-hero__copy"><p class="eyebrow" data-reveal>Demo concept · forno artigianale</p><h1 id="bakery-title" data-reveal>Pane buono.<br><em>Ogni giorno.</em></h1><p data-reveal>Farina, tempo e mani al lavoro. Un forno immaginato per il quartiere, raccontato con semplicità.</p><a class="button button--primary" href="#prodotti" data-reveal>Scopri il banco <span aria-hidden="true">↓</span></a></div></section>
+
+    <section class="bakery-story section-shell" id="storia" aria-labelledby="story-title"><div class="bakery-stamp" aria-hidden="true"><strong>fatto con calma</strong></div><div><p class="demo-note" data-reveal>La nostra storia · demo</p><h2 id="story-title" data-reveal>Il profumo di casa,<br><em>all'angolo della strada.</em></h2><p data-reveal>Forno del Borgo è un progetto dimostrativo: immagina il carattere di un forno locale con parole concrete, immagini calde e le informazioni che chi passa cerca davvero.</p><p data-reveal>Le storie, gli indirizzi e gli orari di un'attività reale devono sempre essere forniti e verificati prima della pubblicazione.</p></div></section>
+
+    <section class="bakery-products" id="prodotti" aria-labelledby="products-title"><div class="section-shell"><div class="bakery-products__heading"><div><p class="demo-note" data-reveal>Dal banco</p><h2 id="products-title" data-reveal>Cose semplici,<br><em>fatte a regola.</em></h2></div><p data-reveal>Una griglia dimostrativa per presentare pane, pizza e specialità senza trasformare il sito in un catalogo confuso.</p></div><div class="bakery-products-grid" data-reveal><article class="bakery-product"><span aria-hidden="true">⌁</span><h3>Pane</h3><p>Filoni, pagnotte e forme del giorno: testi e varietà sono da personalizzare.</p></article><article class="bakery-product"><span aria-hidden="true">◒</span><h3>Pizza</h3><p>Focacce e teglie immaginate per una pausa semplice e generosa.</p></article><article class="bakery-product"><span aria-hidden="true">✦</span><h3>Dal forno</h3><p>Dolci e prodotti stagionali da aggiornare con ciò che prepari davvero.</p></article></div></div></section>
+
+    <section class="bakery-process section-shell" aria-labelledby="process-title"><div><p class="demo-note" data-reveal>Il gesto</p><h2 id="process-title" data-reveal>Ci sono cose che<br><em>chiedono tempo.</em></h2><p data-reveal>Il sito può raccontare un metodo senza promesse generiche: basta scegliere i passaggi che rappresentano davvero il lavoro quotidiano.</p></div><ol class="process-list" data-reveal><li>Impastare</li><li>Lasciare riposare</li><li>Cuocere</li><li>Condividere</li></ol></section>
+
+    <section class="bakery-visit" id="visita" aria-labelledby="visit-title"><div class="section-shell bakery-visit__grid"><div><p class="demo-note" data-reveal>Passa a trovarci</p><h2 id="visit-title" data-reveal>Il banco ti<br><em>aspetta.</em></h2></div><div class="bakery-visit__details" data-reveal><p><strong>Via Esempio 12, Ostia</strong><br>Indirizzo dimostrativo: sostituire con il dato reale.</p><p><strong>Mar–Sab · 07:00–19:30</strong><br><strong>Dom · 07:00–13:00</strong></p><small>Orari dimostrativi — da verificare prima della pubblicazione</small><a class="button button--primary" href="mailto:INSERISCI_QUI_EMAIL_OUTLOOK@outlook.com?subject=Informazioni%20Forno%20del%20Borgo">Scrivici <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+
+  <footer class="demo-footer"><div class="section-shell demo-footer__full"><div><h2>PIXEL OSTIA</h2><p>Forno del Borgo è un concept dimostrativo per mostrare una direzione possibile.</p><p>Social: da inserire</p></div><nav aria-label="Link footer"><a href="index.html">Portfolio Pixel Ostia</a><a href="index.html#prezzi">Prezzi</a><a href="index.html#contatti">Contatti</a></nav><a href="mailto:INSERISCI_QUI_EMAIL_OUTLOOK@outlook.com">INSERISCI_QUI_EMAIL_OUTLOOK</a></div><div class="section-shell demo-footer__inner"><p>© <span data-current-year></span> Pixel Ostia. Tutti i diritti riservati.</p><a href="index.html">Torna al portfolio</a></div></footer>
+</body>
+</html>

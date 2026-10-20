@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FORGE GYM è una demo Pixel Ostia: un esempio energico di sito per palestra e centro fitness.">
+  <meta name="theme-color" content="#08090D">
+  <meta property="og:title" content="FORGE GYM — Demo Pixel Ostia">
+  <meta property="og:description" content="Una demo ad alto contrasto per una palestra contemporanea.">
+  <meta property="og:type" content="website">
+  <title>FORGE GYM — Demo palestra | Pixel Ostia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logo/pixel-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="site-body demo-page gym-page">
+  <a class="skip-link" href="#contenuto">Vai al contenuto principale</a>
+  <div class="cursor-dot" aria-hidden="true"></div><div class="cursor-ring" aria-hidden="true"></div><div class="page-wipe" aria-hidden="true"></div>
+
+  <header class="site-header demo-header" data-header>
+    <a class="demo-brand" href="palestra.html" aria-label="FORGE GYM, home">FORGE <strong>GYM</strong></a>
+    <div class="header-actions">
+      <button class="motion-toggle" type="button" data-motion-toggle aria-pressed="false" aria-label="Disattiva le animazioni"><span class="motion-toggle__icon" aria-hidden="true">✦</span><span class="motion-toggle__label">Movimento</span></button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu" data-menu-toggle><span class="sr-only">Apri il menu</span><span></span><span></span></button>
+    </div>
+    <nav class="site-nav" id="main-menu" aria-label="Navigazione FORGE GYM" data-menu>
+      <a href="#allenamento">Allenamento</a><a href="#spazi">Spazi</a><a href="#contatti-demo">Info</a><a href="index.html" class="nav-contact">← Pixel Ostia</a>
+    </nav>
+  </header>
+
+  <main id="contenuto">
+    <section class="gym-hero" aria-labelledby="gym-title">
+      <div class="gym-hero__copy">
+        <p class="eyebrow" data-reveal>Demo concept · palestra urbana</p>
+        <h1 id="gym-title" data-reveal>Allena il tuo<br><em>prossimo livello.</em></h1>
+        <p data-reveal>Uno spazio immaginato per allenarsi con intenzione, energia e una routine che resta addosso.</p>
+        <!-- L'email demo va sostituita con un contatto reale solo al momento della pubblicazione. -->
+        <a class="button gym-button" href="mailto:INSERISCI_QUI_EMAIL_OUTLOOK@outlook.com?subject=Informazioni%20FORGE%20GYM" data-reveal>Richiedi informazioni <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+    <div class="gym-marquee" aria-label="Allenamento, forza, movimento"><div class="gym-marquee__track">FORZA / RESISTENZA / MOBILITÀ / CONSAPEVOLEZZA / FORZA / RESISTENZA / MOBILITÀ / CONSAPEVOLEZZA</div></div>
+
+    <section class="gym-intro section-shell" aria-labelledby="gym-intro-title">
+      <div><p class="eyebrow" data-reveal>Il concept</p><h2 id="gym-intro-title" data-reveal>Non una palestra.<br><em>Il tuo posto.</em></h2></div>
+      <div data-reveal><p>FORGE GYM è un'identità dimostrativa: una palestra di quartiere con un approccio diretto e uno spazio progettato attorno al movimento. Nessuna promessa di risultati: solo il contesto giusto per lavorare sui propri obiettivi.</p><a class="text-link" href="#allenamento">Esplora le discipline <span aria-hidden="true">→</span></a></div>
+    </section>
+
+    <section class="gym-programs" id="allenamento" aria-labelledby="programs-title">
+      <div class="section-shell"><div class="gym-programs__title"><div><p class="eyebrow" data-reveal>Allenamento</p><h2 id="programs-title" data-reveal>Muoviti<br>come vuoi.</h2></div><p data-reveal>Una selezione dimostrativa di aree che il sito può raccontare con chiarezza.</p></div>
+        <div class="gym-program-grid" data-reveal>
+          <article class="gym-program"><span>01</span><h3>Strength</h3><p>Spazio dedicato a fondamentali, tecnica e programmazione.</p><b aria-hidden="true">↗</b></article>
+          <article class="gym-program"><span>02</span><h3>Conditioning</h3><p>Sessioni ad alta intensità, con ritmo e controllo.</p><b aria-hidden="true">↗</b></article>
+          <article class="gym-program"><span>03</span><h3>Mobility</h3><p>Movimento, recupero e cura della meccanica.</p><b aria-hidden="true">↗</b></article>
+          <article class="gym-program"><span>04</span><h3>Open Floor</h3><p>Uno spazio libero per costruire la propria routine.</p><b aria-hidden="true">↗</b></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gym-split" id="spazi" aria-labelledby="spaces-title">
+      <div class="gym-split__visual" aria-hidden="true"><span class="gym-split__mark">FORGE</span><span class="gym-split__meta">SPACE / 01</span><span class="gym-split__line"></span></div>
+      <div class="gym-split__copy"><p class="eyebrow" data-reveal>Lo spazio</p><h2 id="spaces-title" data-reveal>Fatto per<br><em>tenere il ritmo.</em></h2><p data-reveal>Il design del sito può mettere in scena ambienti, attrezzature e filosofia di una palestra, senza appesantire chi cerca rapidamente le informazioni fondamentali.</p><ul class="gym-checks" data-reveal><li>Aree e discipline ordinate</li><li>Contatti sempre raggiungibili</li><li>Esperienza mobile leggibile</li></ul></div>
+    </section>
+
+    <section class="gym-cta" id="contatti-demo" aria-labelledby="gym-cta-title"><div class="section-shell"><p class="eyebrow" data-reveal>Inizia da qui</p><h2 id="gym-cta-title" data-reveal>Pronto a<br><em>fare spazio?</em></h2><p data-reveal>Questa è una demo, con contenuti e contatti fittizi. Per una palestra reale, ogni informazione va verificata e approvata prima della pubblicazione.</p><a class="button" href="mailto:INSERISCI_QUI_EMAIL_OUTLOOK@outlook.com?subject=Informazioni%20FORGE%20GYM" data-reveal>Scrivici <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+
+  <footer class="demo-footer"><div class="section-shell demo-footer__full"><div><h2>PIXEL OSTIA</h2><p>FORGE GYM è un concept dimostrativo per mostrare una direzione possibile.</p><p>Social: da inserire</p></div><nav aria-label="Link footer"><a href="index.html">Portfolio Pixel Ostia</a><a href="index.html#prezzi">Prezzi</a><a href="index.html#contatti">Contatti</a></nav><a href="mailto:INSERISCI_QUI_EMAIL_OUTLOOK@outlook.com">INSERISCI_QUI_EMAIL_OUTLOOK</a></div><div class="section-shell demo-footer__inner"><p>© <span data-current-year></span> Pixel Ostia. Tutti i diritti riservati.</p><a href="index.html">Torna al portfolio</a></div></footer>
+</body>
+</html>
